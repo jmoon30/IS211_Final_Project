@@ -1,5 +1,10 @@
 # IS211 Final Project – Book Catalogue Web Application
 
+John Moon <br>
+Prof. Ledon <br>
+IS 211 - Software App. Programming II <br>
+December 3, 2025
+
 This project is a Flask-based web application that allows a user to keep track of the books they own. After logging in, the user can search for books using an ISBN number through the Google Books API. The application retrieves book information from the API and stores selected details in a local SQLite database. The user can then view their saved books in a table and delete any book from their collection.
 
 The application follows a simple model-view-controller structure using Flask and SQLAlchemy. The database contains two tables: a User table for login credentials and a Book table for storing book information such as title, author, page count, average rating, and the user associated with each book. All data is stored locally using SQLite and SQLAlchemy ORM.
@@ -56,5 +61,6 @@ IS211_Final_Project
     │   ├── login.html  
     │   └── dashboard.html  
     └── static  
+
 
 
